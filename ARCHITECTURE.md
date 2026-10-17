@@ -57,6 +57,8 @@ Formulários usam React Hook Form e Zod. O `fields` do erro da API volta para o 
 
 ## Deploy
 
+A demonstração está em https://desafio-frontend-marketplacede-nf-9baf3v79e.vercel.app/
+
 `vercel.json` reescreve para `index.html` só o caminho sem ponto no nome, para o arquivo estático com extensão não receber HTML no lugar do JavaScript.
 
 ## Lighthouse

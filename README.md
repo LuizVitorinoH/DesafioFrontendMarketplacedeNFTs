@@ -77,6 +77,8 @@ O preview usa a porta `4173`. O Lighthouse sobe esse preview se ele ainda não e
 
 ## Publicação
 
-O `vercel.json` devolve `index.html` para rotas sem ponto no caminho, então acesso direto e refresh funcionam na Vercel. O build de demonstração sobe com o mock ligado.
+https://desafio-frontend-marketplacede-nf-9baf3v79e.vercel.app/
+
+O `vercel.json` devolve `index.html` para rotas sem ponto no nome, então acesso direto e refresh funcionam nessa URL. O build sobe com o mock ligado.
 
 O Playwright usa Chromium em 1440×900 e, nos testes marcados com `@mobile`, em 390×844. Há um fluxo de layout em 768 dentro do projeto desktop. Cada teste entra com `?reset=1` e o cenário escolhido.
