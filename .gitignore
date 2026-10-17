@@ -1,0 +1,10 @@
+node_modules
+dist
+.vercel
+playwright-report
+test-results
+blob-report
+lighthouse/reports
+*.tsbuildinfo
+.DS_Store
+.env.local
